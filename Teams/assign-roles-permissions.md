@@ -86,7 +86,7 @@ Set-MsolCompanySettings -UsersPermissionToCreateGroupsEnabled $True
 
     $setting["GroupCreationAllowedGroupId"] = "&lt;ObjectId of Group Allowed to Create Groups>"
 
-    New-AzureADDirectorySetting -DirectorySetting $settings
+    New-AzureADDirectorySetting -DirectorySetting $setting
     ```
 
     b. For more information, see: [Manage Office 365 Group Creation](https://support.office.com/article/Manage-Office-365-Group-Creation-4c46c8cb-17d0-44b5-9776-005fced8e618?ui=en-US&rs=en-US&ad=US#step3).
